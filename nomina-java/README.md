@@ -15,19 +15,6 @@ src/
     └── Main.java              (menús, captura, reporte)
 ```
 
-## Cómo compilar y ejecutar
-
-Desde la carpeta del proyecto:
-
-```bash
-mkdir out
-javac -encoding UTF-8 -d out src/modelo/*.java src/aplicacion/Main.java
-java -cp out aplicacion.Main
-```
-
-También se puede abrir la carpeta en IntelliJ / Eclipse / NetBeans / VS Code y ejecutar `aplicacion.Main`.
-Si en Windows los acentos se ven raros, ejecutar antes `chcp 65001` o usar `java -Dstdout.encoding=UTF-8 -cp out aplicacion.Main`.
-
 ## Caso de comprobación (sección 11)
 
 Ingresar mes `3` → muestra **MARZO**. Registrar:
